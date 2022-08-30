@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B0E0E6"
+        android:weightSum="10"
+        android:layout_marginTop="-2.5dp">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:background="none"
+            android:text="< Back"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10px"
+            android:paddingLeft="10dp"
+            android:src="@drawable/setiibg"
+            android:layout_weight="2"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:background="#B0E0E6">
+
+        <ImageView
+            android:id="@+id/img_avt"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/avt" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:paddingLeft="10dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="90dp"
+        android:layout_marginTop="360dp"
+        android:text="|"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:orientation="vertical"
+        android:paddingLeft="120dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Followers"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="500dp"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/border_top"
+            android:text="Email: tupham.160802@gmail.com"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/border"
+            android:layout_marginTop="-2dp"
+            android:text="Phone: +84 973370719"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/border"
+            android:layout_marginTop="-2dp"
+            android:text="Facebook: Pham Trong Tu"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/border_bottom"
+            android:layout_marginTop="-2dp"
+            android:text="Web: FourTNeaker.com"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
